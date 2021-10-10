@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Anna Sheludchenko</title>
-    <link href="outlines.css" rel="stylesheet">
+    <link href="doc_style.css" rel="stylesheet">
     <meta name="keywords" content="Анна Шелудченко, Anna Sheludchenko, castlesofplacebo">
 </head>
 <body>
-<header>
+<header class="header">
     <h1>Anna Sheludchenko</h1>
     <h2>Junior Developer & ITMO University student</h2>
 
-    <figure class="header_photo">
+    <figure class="header__photo">
         <img src="photo/info_photo.jpeg" alt="personal photo" width="400" height="400">
         <figcaption>Фото с кумиром молодёжи</figcaption>
     </figure>
 
-    <nav>
+    <nav class="header__navigation">
         <h3>Navigation</h3>
         <ul>
             <li><a href="#profile"> Profile </a></li>
@@ -29,20 +29,37 @@
     </nav>
 </header>
 
-<main>
-    <section id="profile">
+<main class="general">
+    <section class="general__profile">
         <h3>About me</h3>
+
         <p>I am 20 years old, and I was born in Volzhsky (Volgograd region). Nowadays, I live in
             Saint-Petersburg.</p>
+
+        <div class="general__photo">
+        <figure class="general general-volzhsky">
+            <img src="photo/volzhsky2021.JPG" alt="photo from volzhsky 2021" width="500" height="250">
+        </figure>
+        </div>
+
         <p>I am a third-year student at ITMO University. My major is information systems and technologies. </p>
+
         <p>I started programming only three years ago, but I have quite a good result in it.
             Also, I enjoy all kinds of education: watching lectures, guides and tutorials; taking notes and trying
             new
             approaches of time management.
         </p>
+
+        <div class="general__photo">
+            <figure class="general general-tom-nook">
+                <img src="photo/tom_nook.jpeg" alt="tom nook" width="400" height="400">
+                <figcaption>А ещё у меня есть фигурка Тома Нука...</figcaption>
+            </figure>
+        </div>
+
     </section>
 
-    <section id="education">
+    <section class="general__education">
         <h3>Education</h3>
         <ul>
             <li>Elementary & High School №22, Volzhsky 2008 - 2014</li>
@@ -52,7 +69,7 @@
         </ul>
     </section>
 
-    <section id="skills">
+    <section class="general__skills">
         <h3>Skills</h3>
         <ul>
             <li>C&C++ programming</li>
@@ -67,7 +84,7 @@
             </ul>
         </ul>
 
-        <section id="code snippet">
+        <section class="general__code-snippet">
             <h3>Code snippet</h3>
             <p>Code snippet from object-oriented programming lab:</p>
             <pre>
@@ -86,7 +103,7 @@ void Bank::addMember(BankAccount *bankAccount) {
         </section>
     </section>
 
-    <section id="languages">
+    <section class="general__languages">
         <h3>Languages</h3>
         <ol>
             <li><i>Russian</i> - Native Speaker</li>
@@ -94,7 +111,7 @@ void Bank::addMember(BankAccount *bankAccount) {
         </ol>
     </section>
 
-    <section id="quotes">
+    <section class="general__quotes">
         <h3>My favourite quotes</h3>
         <blockquote>
             <p>Ту ту ту ту ту <b>ту ту ту ту</b> ту</p>
@@ -105,7 +122,7 @@ void Bank::addMember(BankAccount *bankAccount) {
         </p>
     </section>
 
-    <aside id="contacts">
+    <aside class="general__contacts">
         <h3>Contacts:</h3>
         <ul>
             <li><a href="https://github.com/castlesofplacebo"> <strong>GitHub</strong> </a></li>
@@ -116,8 +133,8 @@ void Bank::addMember(BankAccount *bankAccount) {
     </aside>
 </main>
 
-<foter>
-    <section id="ascii block">
+<foter class="footer">
+    <section class="footer__ascii-block">
         <h3>ASCII block</h3>
         <pre>
  _    _    __    _  _  _  _    ____  ____  ___    ____  ____  __  __  ____    ____  _____  ____    ___   ___  _   _  _____  _____  __
