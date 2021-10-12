@@ -1,96 +1,83 @@
-title {
-
-}
-
 h1 {
-
+    font-size: 30px;
+    text-align: center;
 }
 
 h2 {
-
+    font-size: 25px;
+    text-align: center;
 }
 
 h3 {
-
+    font-size: 20px;
+    text-shadow: 1px 2px 2px rgba(141, 150, 164, 0.6);
+    text-align: center;
 }
 
-p {
-
+p, ul, ol, a {
+    font-size: 15px;
+    line-height: 30px;
 }
 
-ul {
-
-}
-
-ol {
-
-}
-
-pre {
-
+pre, blockquote {
+    font-size: 13px;
+    line-height: 20px;
 }
 
 code {
-
+    font-style: italic;
+    line-height: 20px;
 }
 
-blockquote {
-
-}
-
-a {
-
-}
-
-.header {
-
-}
-
-.header__photo {
-
+body {
+    background: #F5FFFA;
+    font-family: Georgia, serif;
 }
 
 .header__navigation {
+    padding: 10px;
+    text-align: center;
+    background: #B0C4DE;
+    border: 5px solid rgba(141, 150, 164, 0.6);
+}
 
+.header__navigation li{
+    padding: 10px;
+    display: inline-block;
 }
 
 .general {
-
+    margin: 10px;
+    padding: 15px;
 }
 
-.general__profile {
-
+.general__photo {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 4px 4px 60px 4px rgba(141, 150, 164, 0.6);
+    box-shadow: 4px 4px 60px 4px rgba(141, 150, 164, 0.6);
 }
 
 .general__education {
-
-}
-
-.general__skills {
-
+    font-weight: bolder;
 }
 
 .general__code-snippet {
-
-}
-
-.general__languages {
-
+    box-shadow: 2px 2px 7px 1px #B0C4DE;
 }
 
 .general__quotes {
-
-}
-
-.general__contacts {
-
-}
-
-.footer {
-
+    text-align: center;
+    color: black;
+    background-color: #B0C4DE;
+    text-shadow: rgb(122, 122, 122) 4px 3px 0;
+    border: 5px solid rgba(141, 150, 164, 0.6);
 }
 
 .footer__ascii-block {
-
+    margin: 10px;
+    padding: 15px;
+    border: 5px dashed rgb(141, 150, 164);
 }
-

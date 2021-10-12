@@ -11,36 +11,29 @@
     <h1>Anna Sheludchenko</h1>
     <h2>Junior Developer & ITMO University student</h2>
 
-    <figure class="header__photo">
-        <img src="photo/info_photo.jpeg" alt="personal photo" width="400" height="400">
-        <figcaption>Фото с кумиром молодёжи</figcaption>
-    </figure>
-
     <nav class="header__navigation">
         <h3>Navigation</h3>
         <ul>
-            <li><a href="#profile"> Profile </a></li>
-            <li><a href="#education"> Education </a></li>
-            <li><a href="#skills"> Skills </a></li>
-            <li><a href="#languages"> Languages </a></li>
-            <li><a href="#quotes"> Quotes </a></li>
-            <li><a href="#contacts"> Contacts </a></li>
+            <li><a href=#profile> Profile </a></li>
+            <li><a href=#education> Education </a></li>
+            <li><a href=#skills> Skills </a></li>
+            <li><a href=#languages> Languages </a></li>
+            <li><a href=#quotes> Quotes </a></li>
+            <li><a href=#contacts> Contacts </a></li>
         </ul>
     </nav>
 </header>
 
 <main class="general">
-    <section class="general__profile">
+    <section id="profile" class="general__profile"> <!--??? -->
         <h3>About me</h3>
+
+        <img class="general__photo" src="photo/info_photo.jpeg" alt="personal photo" width=40% height=40%>
 
         <p>I am 20 years old, and I was born in Volzhsky (Volgograd region). Nowadays, I live in
             Saint-Petersburg.</p>
 
-        <div class="general__photo">
-        <figure class="general general-volzhsky">
-            <img src="photo/volzhsky2021.JPG" alt="photo from volzhsky 2021" width="500" height="250">
-        </figure>
-        </div>
+        <img class="general__photo" src="photo/volzhsky2021.JPG" alt="photo from volzhsky 2021" width=50% height=30%>
 
         <p>I am a third-year student at ITMO University. My major is information systems and technologies. </p>
 
@@ -50,16 +43,14 @@
             approaches of time management.
         </p>
 
-        <div class="general__photo">
-            <figure class="general general-tom-nook">
-                <img src="photo/tom_nook.jpeg" alt="tom nook" width="400" height="400">
-                <figcaption>А ещё у меня есть фигурка Тома Нука...</figcaption>
-            </figure>
-        </div>
+        <p>
+            Also I have a figure of Tom Nook...
+        </p>
 
+        <img class="general__photo" src="photo/tom_nook.jpeg" alt="tom nook" width=40% height=40%>
     </section>
 
-    <section class="general__education">
+    <section id="education" class="general__education">
         <h3>Education</h3>
         <ul>
             <li>Elementary & High School №22, Volzhsky 2008 - 2014</li>
@@ -69,7 +60,7 @@
         </ul>
     </section>
 
-    <section class="general__skills">
+    <section id="skills" class="general__skills">
         <h3>Skills</h3>
         <ul>
             <li>C&C++ programming</li>
@@ -83,6 +74,24 @@
                 <li>Python</li>
             </ul>
         </ul>
+
+        <section id="languages" class="general__languages">
+            <h3>Languages</h3>
+            <ol>
+                <li><i>Russian</i> - Native Speaker</li>
+                <li><i>English</i> - B2 - Upper Intermediate</li>
+            </ol>
+        </section>
+
+        <aside id="contacts" class="general__contacts">
+            <h3>Contacts:</h3>
+            <ul>
+                <li><a href="https://github.com/castlesofplacebo"> <strong>GitHub</strong> </a></li>
+                <li><a href="https://t.me/castlesofplacebo"> <strong>Telegram</strong> </a></li>
+                <li><a href="https://vk.com/castlesofplacebo"> Vk </a></li>
+                <li><i>Gmail:</i> castlesofplacebo@gmail.com</li>
+            </ul>
+        </aside>
 
         <section class="general__code-snippet">
             <h3>Code snippet</h3>
@@ -103,15 +112,7 @@ void Bank::addMember(BankAccount *bankAccount) {
         </section>
     </section>
 
-    <section class="general__languages">
-        <h3>Languages</h3>
-        <ol>
-            <li><i>Russian</i> - Native Speaker</li>
-            <li><i>English</i> - B2 - Upper Intermediate</li>
-        </ol>
-    </section>
-
-    <section class="general__quotes">
+    <section id="quotes" class="general__quotes">
         <h3>My favourite quotes</h3>
         <blockquote>
             <p>Ту ту ту ту ту <b>ту ту ту ту</b> ту</p>
@@ -121,16 +122,6 @@ void Bank::addMember(BankAccount *bankAccount) {
             фор<sub>мула</sub> + <sup>усп</sup>еха = формула успеха
         </p>
     </section>
-
-    <aside class="general__contacts">
-        <h3>Contacts:</h3>
-        <ul>
-            <li><a href="https://github.com/castlesofplacebo"> <strong>GitHub</strong> </a></li>
-            <li><a href="https://t.me/castlesofplacebo"> <strong>Telegram</strong> </a></li>
-            <li><a href="https://vk.com/castlesofplacebo"> Vk </a></li>
-            <li><i>Gmail:</i> castlesofplacebo@gmail.com</li>
-        </ul>
-    </aside>
 </main>
 
 <foter class="footer">
