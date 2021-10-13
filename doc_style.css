@@ -16,8 +16,13 @@ h3 {
 }
 
 p, ul, ol, a {
+    color: black;
     font-size: 15px;
     line-height: 30px;
+}
+
+a:hover {
+    color: blue;
 }
 
 pre, blockquote {
