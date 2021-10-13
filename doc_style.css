@@ -1,0 +1,104 @@
+h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    text-shadow: 1px 2px 2px rgba(141, 150, 164, 0.6);
+    text-align: center;
+}
+
+p, ul, ol, a {
+    color: black;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+a:hover {
+    color: blue;
+}
+
+pre, blockquote {
+    font-size: 13px;
+    line-height: 20px;
+}
+
+code {
+    line-height: 20px;
+    word-spacing: 5px;
+}
+
+body {
+    background: #F5FFFA;
+    font-family: Georgia, serif;
+}
+
+.header {
+    padding: 10px;
+}
+
+.header__navigation {
+    text-align: center;
+    background: #B0C4DE;
+    border: 5px solid rgba(141, 150, 164, 0.6);
+}
+
+.header__navigation li {
+    display: inline-block;
+}
+
+.general {
+    margin: 10px;
+    padding: 15px;
+}
+
+.general__photo {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 4px 4px 60px 4px rgba(141, 150, 164, 0.6);
+    box-shadow: 4px 4px 60px 4px rgba(141, 150, 164, 0.6);
+}
+
+.general__education {
+    font-weight: bolder;
+}
+
+.general__code-snippet pre {
+    box-shadow: 2px 2px 7px 1px #B0C4DE;
+}
+
+.general__quotes {
+    text-align: center;
+    color: black;
+    background-color: #B0C4DE;
+    text-shadow: rgb(122, 122, 122) 4px 3px 0;
+    border: 5px solid rgba(141, 150, 164, 0.6);
+}
+
+.footer {
+    padding: 10px;
+    margin: 10px;
+}
+
+.footer__wishes {
+    text-decoration: line-through;
+}
+
+.footer__reality {
+    text-transform: uppercase;
+}
+
+.footer__ascii-block pre {
+    padding: 20px;
+    font-weight: bolder;
+    border: 5px dashed rgb(141, 150, 164);
+}
