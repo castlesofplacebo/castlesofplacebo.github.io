@@ -25,30 +25,37 @@
 </header>
 
 <main class="general">
-    <section id="profile" class="general__profile"> <!--??? -->
-        <h3>About me</h3>
+    <div class="general__photo">
+        <img src="photo/info_photo.JPG" alt="personal photo" width=45% height=25%>
+        <img src="photo/volzhsky2021.JPG" alt="photo from volzhsky 2021" width=45% height=25%>
+    </div>
 
-        <img class="general__photo" src="photo/info_photo.jpeg" alt="personal photo" width=40% height=40%>
+    <div class="general__intro">
+        <section id="profile" class="general__info">
+            <h3>About me</h3>
 
-        <p>I am 20 years old, and I was born in Volzhsky (Volgograd region). Nowadays, I live in
-            Saint-Petersburg.</p>
+            <p>I am 20 years old, and I was born in Volzhsky (Volgograd region). Nowadays, I live in
+                Saint-Petersburg.
+            </p>
 
-        <img class="general__photo" src="photo/volzhsky2021.JPG" alt="photo from volzhsky 2021" width=50% height=30%>
+            <p>I am a third-year student at ITMO University. My major is information systems and technologies. </p>
 
-        <p>I am a third-year student at ITMO University. My major is information systems and technologies. </p>
+            <p>I started programming only three years ago, but I have quite a good result in it.
+                Also, I enjoy all kinds of education: watching lectures, guides and tutorials; taking notes and trying
+                new
+                approaches of time management.
+            </p>
+        </section>
 
-        <p>I started programming only three years ago, but I have quite a good result in it.
-            Also, I enjoy all kinds of education: watching lectures, guides and tutorials; taking notes and trying
-            new
-            approaches of time management.
-        </p>
-
-        <p>
-            Also I have a figure of Tom Nook...
-        </p>
-
-        <img class="general__photo" src="photo/tom_nook.jpeg" alt="tom nook" width=40% height=40%>
-    </section>
+        <section id="contacts" class="general__contacts">
+            <h3>Contacts</h3>
+            <ul>
+                <li><a href="https://github.com/castlesofplacebo"> <strong>GitHub</strong> </a></li>
+                <li><a href="https://t.me/castlesofplacebo"> <strong>Telegram</strong> </a></li>
+                <li><a href="https://vk.com/castlesofplacebo"> Vk </a></li>
+            </ul>
+        </section>
+    </div>
 
     <section id="education" class="general__education">
         <h3>Education</h3>
@@ -83,16 +90,6 @@
             </ol>
         </section>
 
-        <aside id="contacts" class="general__contacts">
-            <h3>Contacts:</h3>
-            <ul>
-                <li><a href="https://github.com/castlesofplacebo"> <strong>GitHub</strong> </a></li>
-                <li><a href="https://t.me/castlesofplacebo"> <strong>Telegram</strong> </a></li>
-                <li><a href="https://vk.com/castlesofplacebo"> Vk </a></li>
-                <li><i>Gmail:</i> castlesofplacebo@gmail.com</li>
-            </ul>
-        </aside>
-
         <section class="general__code-snippet">
             <h3>Code snippet</h3>
             <p>Code snippet from object-oriented programming lab:</p>
@@ -118,21 +115,10 @@ void Bank::addMember(BankAccount *bankAccount) {
             <p>Ту ту ту ту ту <b>ту ту ту ту</b> ту</p>
             <cite>Папич</cite>
         </blockquote>
-        <p>
-            фор<sub>мула</sub> + <sup>усп</sup>еха = формула успеха
-        </p>
     </section>
 </main>
 
 <footer class="footer">
-    <h3>Wishes and regrets...</h3>
-    <p class="footer__wishes">
-        Писать телеграм бота и делать машинное обучение
-    </p>
-
-    <p class="footer__reality">
-        делать веб
-    </p>
 
     <section class="footer__ascii-block">
         <h3>ASCII block</h3>

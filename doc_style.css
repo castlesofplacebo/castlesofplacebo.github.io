@@ -1,24 +1,23 @@
 h1 {
-    font-size: 30px;
+    font-size: 5vh;
     text-align: center;
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 4vh;
     font-style: italic;
     text-align: center;
 }
 
 h3 {
-    font-size: 20px;
-    text-shadow: 1px 2px 2px rgba(141, 150, 164, 0.6);
-    text-align: center;
+    font-size: 3.5vh;
+    text-shadow: 0.5vh 1vh 1vh rgba(141, 150, 164, 0.6);
 }
 
 p, ul, ol, a {
     color: black;
-    font-size: 15px;
-    line-height: 30px;
+    font-size: 3vh;
+    line-height: 4.8vh;
 }
 
 a:hover {
@@ -26,13 +25,13 @@ a:hover {
 }
 
 pre, blockquote {
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 2.5vh;
+    line-height: 4vh;
 }
 
 code {
-    line-height: 20px;
-    word-spacing: 5px;
+    line-height: 3vh;
+    word-spacing: 1.5vh;
 }
 
 body {
@@ -41,32 +40,41 @@ body {
 }
 
 .header {
-    padding: 10px;
+    display: flex;
+    border-bottom: 1px solid #D7DBDD;
+    flex-direction: column;
+    align-items: stretch;
 }
 
 .header__navigation {
+    cursor: pointer;
+    padding: 5px 30px;
+    font-size: 12px;
+    border: 1vh solid rgba(141, 150, 164, 0.6);
     text-align: center;
     background: #B0C4DE;
-    border: 5px solid rgba(141, 150, 164, 0.6);
 }
 
 .header__navigation li {
-    display: inline-block;
+    display: inline-flex;
 }
 
 .general {
-    margin: 10px;
-    padding: 15px;
+    margin: 1.5vh;
+    padding: 2vh;
+}
+
+.general__intro {
+    display: flex;
+    flex-direction: row;
 }
 
 .general__photo {
-    width: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    -webkit-box-shadow: 4px 4px 60px 4px rgba(141, 150, 164, 0.6);
-    box-shadow: 4px 4px 60px 4px rgba(141, 150, 164, 0.6);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
 
 .general__education {
     font-weight: bolder;
@@ -85,8 +93,8 @@ body {
 }
 
 .footer {
-    padding: 10px;
-    margin: 10px;
+    padding: 1vh;
+    margin: 2vh;
 }
 
 .footer__wishes {
@@ -98,7 +106,6 @@ body {
 }
 
 .footer__ascii-block pre {
-    padding: 20px;
+    padding: 3vh;
     font-weight: bolder;
-    border: 5px dashed rgb(141, 150, 164);
 }
