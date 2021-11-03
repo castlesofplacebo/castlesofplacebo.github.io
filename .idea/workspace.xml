@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ee2604f-de60-48c4-959a-d46ffcdb6a65" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/date.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html-entities/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-entities/contacts.html" afterDir="false" />
@@ -13,6 +12,7 @@
       <change beforePath="$PROJECT_DIR$/html-entities/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-entities/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html-entities/quotes.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-entities/quotes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html-entities/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-entities/skills.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +72,16 @@
       <recent name="C:\Users\castl\castlesofplacebo.github.io\photo" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/castlesofplacebo.github.io/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -98,6 +108,7 @@
       <workItem from="1634115983547" duration="62000" />
       <workItem from="1634118612161" duration="2352000" />
       <workItem from="1635233525761" duration="19140000" />
+      <workItem from="1635960592901" duration="998000" />
     </task>
     <servers />
   </component>
