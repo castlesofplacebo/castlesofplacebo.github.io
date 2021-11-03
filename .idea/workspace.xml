@@ -12,7 +12,6 @@
       <change beforePath="$PROJECT_DIR$/html-entities/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-entities/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html-entities/quotes.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-entities/quotes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html-entities/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-entities/skills.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,7 @@
       <workItem from="1634115983547" duration="62000" />
       <workItem from="1634118612161" duration="2352000" />
       <workItem from="1635233525761" duration="19140000" />
-      <workItem from="1635960592901" duration="998000" />
+      <workItem from="1635960592901" duration="1662000" />
     </task>
     <servers />
   </component>
