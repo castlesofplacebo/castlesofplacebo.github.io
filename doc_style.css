@@ -1,3 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 24px;
+    scroll-behavior: smooth;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+#profile {
+    background-color: royalblue;
+}
+
+#education {
+    background-color: aquamarine;
+}
+
+#skills {
+    background-color: crimson;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+nav .container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+
+nav .container ul li {
+    display: inline-block;
+}
+
+nav .container ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+}
+
+nav .container ul li.active {
+    background-color: crimson;
+    transition: 0.3s ease background-color;
+}
+
+nav .container ul li.active a {
+    color: rgb(255, 255, 255);
+}
+
+/*
 h1 {
     font-size: 5vh;
     text-align: center;
@@ -20,10 +88,6 @@ p, ul, ol, a {
     line-height: 4.8vh;
 }
 
-a:hover {
-    color: blue;
-}
-
 pre {
     font-size: 2.5vh;
     line-height: 4vh;
@@ -37,28 +101,9 @@ code {
 body {
     background: #F5FFFA;
     font-family: Georgia, serif;
-}
+}*/
 
-.header {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-}
-
-.header__navigation {
-    cursor: pointer;
-    padding: 2vh 10vh;
-    font-size: 5vh;
-    border: 1vh solid rgba(141, 150, 164, 0.6);
-    text-align: center;
-    background: #B0C4DE;
-}
-
-.header__navigation li {
-    display: inline-flex;
-}
-
-.general {
+/*.general {
     margin: 1.5vh;
     padding: 1vh;
 }
@@ -95,23 +140,23 @@ body {
     left: 5vh;
     font-size: 9vh;
 }
-
-.general__main {
+*/
+/*.general__main {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
-}
+}*/
 
-.general__info, .general__contacts, .general__education, .general__skills {
+/*.general__info, .general__contacts, .general__education, .general__skills {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     width: 50%;
     height: 50%;
     align-content: space-around;
-}
-
+}*/
+/*
 .general__icon-phone {
     margin: 3vh;
     display: flex;
@@ -181,7 +226,8 @@ cite {
     padding: 2vh 2vh;
     display: block;
     word-wrap: break-word;
-}
+}*/
+/*
 
 .footer {
     padding: 1vh;
@@ -190,7 +236,7 @@ cite {
 
 .footer__table {
     display: grid;
-    grid-template-columns: 1fr 1fr 20%;
+    grid-template-columns: 1fr 1fr 50%;
     grid-gap: 2vh;
 }
 
@@ -205,6 +251,10 @@ cite {
     padding: 2vh;
     font-style: oblique;
     background: #c9def7;
+}
+
+.footer_load-time {
+    text-align: center;
 }
 
 .footer__ascii-block {
@@ -222,4 +272,4 @@ cite {
     .footer__ascii-block {
         display: none;
     }
-}
+}*/

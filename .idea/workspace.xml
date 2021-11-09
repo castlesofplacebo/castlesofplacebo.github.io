@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ee2604f-de60-48c4-959a-d46ffcdb6a65" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/html-entities/date.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/page_load.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/state_items.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/castlesofplacebo.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/castlesofplacebo.github.io.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html-entities/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-entities/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html-entities/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-entities/education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html-entities/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-entities/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html-entities/quotes.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-entities/quotes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html-entities/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/html-entities/skills.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/doc_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-entities/contacts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-entities/education.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-entities/profile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-entities/quotes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-entities/skills.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +28,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -60,6 +66,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -107,7 +114,9 @@
       <workItem from="1634115983547" duration="62000" />
       <workItem from="1634118612161" duration="2352000" />
       <workItem from="1635233525761" duration="19140000" />
-      <workItem from="1635960592901" duration="1662000" />
+      <workItem from="1635960592901" duration="1725000" />
+      <workItem from="1636386224479" duration="26139000" />
+      <workItem from="1636454261187" duration="12000" />
     </task>
     <servers />
   </component>
@@ -125,5 +134,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
