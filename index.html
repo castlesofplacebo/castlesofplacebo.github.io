@@ -5,24 +5,24 @@
     <title>Anna Sheludchenko</title>
     <link href="doc_style.css" rel="stylesheet">
     <meta name="keywords" content="Анна Шелудченко, Anna Sheludchenko, castlesofplacebo">
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="scripts/state_items.js"></script>
+    <script src="scripts/page_load.js"></script>
 </head>
 <body>
 <header class="header">
     <h1>Anna Sheludchenko</h1>
     <h2>Junior Developer & ITMO University student</h2>
-    <nav>
+
+    <nav class="header__nav">
         <div class="container">
             <ul>
-                <li class="profile"><a href="#profile"> Profile </a>
-                </li>
-                <li class="education"><a href=#education> Education </a>
-                </li>
+                <li class="profile"><a href="#profile"> Profile </a></li>
                 <li class="skills"><a href=#skills> Skills </a></li>
-                <li class="quotes"><a href=#quotes> Quotes </a></li>
-                <li class="contacts"><a href=#contacts> Contacts </a>
-                </li>
+                <li class="contacts"><a href=#contacts> Contacts </a></li>
+                <li class="education"><a href=#education> Education </a></li>
+                <li class="date"><a href="./html-entities/date.html"> Get Date </a></li>
             </ul>
         </div>
     </nav>
@@ -36,7 +36,6 @@
         <div class="photo photo1 photo--large"></div>
         <div class="photo photo2 photo--large"></div>
     </div>
-
 
     <div class="general__main">
         <section id="profile" class="general__info">
@@ -52,6 +51,7 @@
                 approaches of time management.
             </p>
         </section>
+
         <section id="skills" class="general__skills">
             <h3>Skills</h3>
             <ul>
@@ -101,6 +101,7 @@
             </blockquote>
         </div>
     </section>
+
     <section class="general__code-snippet">
         <h3>Code snippet</h3>
         <p>Code snippet from object-oriented programming lab:</p>
@@ -122,6 +123,7 @@ void Bank::addMember(BankAccount *bankAccount) {
 
 <footer>
     <h3>Current plans</h3>
+
     <div class="footer__table">
         <div>25-31 October</div>
         <div>Odd</div>
@@ -150,7 +152,7 @@ void Bank::addMember(BankAccount *bankAccount) {
 (__/\__)(__)(__)(_)\_) (__)   (____) (__) (___/   (__) (____)(_/\/\_)(____)  (__)  (_____)(_)\_)  (___/ \___)(_) (_)(_____)(_____)(____)
         </pre>
     </section>
+
 </footer>
 </body>
-
 </html>
