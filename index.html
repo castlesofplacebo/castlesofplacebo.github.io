@@ -5,36 +5,40 @@
     <title>Anna Sheludchenko</title>
     <link href="doc_style.css" rel="stylesheet">
     <meta name="keywords" content="Анна Шелудченко, Anna Sheludchenko, castlesofplacebo">
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="scripts/state_items.js"></script>
+    <script src="scripts/page_load.js"></script>
 </head>
 <body>
 <header class="header">
     <h1>Anna Sheludchenko</h1>
     <h2>Junior Developer & ITMO University student</h2>
 
-    <nav class="header__navigation">
-        <h3>Navigation</h3>
-        <ul>
-            <li><a href=#profile> Profile </a></li>
-            <li><a href=#education> Education </a></li>
-            <li><a href=#skills> Skills </a></li>
-            <li><a href=#quotes> Quotes </a></li>
-            <li><a href=#contacts> Contacts </a></li>
-        </ul>
+    <nav class="header__nav">
+        <div class="container">
+            <ul>
+                <li class="profile"><a href="#profile"> Profile </a></li>
+                <li class="skills"><a href=#skills> Skills </a></li>
+                <li class="contacts"><a href=#contacts> Contacts </a></li>
+                <li class="education"><a href=#education> Education </a></li>
+                <li class="date"><a href="./html-entities/date.html"> Get Date </a></li>
+            </ul>
+        </div>
     </nav>
 </header>
 
 <main class="general">
 
-    <i style="font-size:50px" class="general__icon-hand">&#9997;</i>
+    <i class="general__icon-hand">&#9997;</i>
 
     <div class="general__gallery">
         <div class="photo photo1 photo--large"></div>
         <div class="photo photo2 photo--large"></div>
     </div>
 
-
     <div class="general__main">
-        <div id="profile" class="general__info">
+        <section id="profile" class="general__info">
             <h3>About me</h3>
             <p>I am 20 years old, and I was born in Volzhsky (Volgograd region). Nowadays, I live in
                 Saint-Petersburg.
@@ -46,7 +50,7 @@
                 new
                 approaches of time management.
             </p>
-        </div>
+        </section>
 
         <section id="skills" class="general__skills">
             <h3>Skills</h3>
@@ -64,7 +68,7 @@
             </ul>
         </section>
 
-        <div id="contacts" class="general__contacts">
+        <section id="contacts" class="general__contacts">
             <div class="centeredIcon">
                 <div class="general__icon-phone">
                     &#9742
@@ -75,7 +79,7 @@
                 <li><a href="https://t.me/castlesofplacebo"> <strong>Telegram</strong> </a></li>
                 <li><a href="https://vk.com/castlesofplacebo"> Vk </a></li>
             </ul>
-        </div>
+        </section>
 
         <section id="education" class="general__education">
             <h3>Education</h3>
@@ -114,10 +118,12 @@ void Bank::addMember(BankAccount *bankAccount) {
 }</code>
             </pre>
     </section>
+
 </main>
 
 <footer>
     <h3>Current plans</h3>
+
     <div class="footer__table">
         <div>25-31 October</div>
         <div>Odd</div>
@@ -132,6 +138,11 @@ void Bank::addMember(BankAccount *bankAccount) {
         <div>Web lab4, UML task4, Linux lab3</div>
     </div>
 
+    <div class="footer_load-time">
+        <h3>Load time</h3>
+        <span id="load_time"></span>
+    </div>
+
     <section class="footer__ascii-block">
         <h3>ASCII block</h3>
         <pre>
@@ -141,7 +152,7 @@ void Bank::addMember(BankAccount *bankAccount) {
 (__/\__)(__)(__)(_)\_) (__)   (____) (__) (___/   (__) (____)(_/\/\_)(____)  (__)  (_____)(_)\_)  (___/ \___)(_) (_)(_____)(_____)(____)
         </pre>
     </section>
+
 </footer>
 </body>
-
 </html>
