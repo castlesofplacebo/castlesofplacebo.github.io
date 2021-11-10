@@ -5,98 +5,107 @@
     <title>Anna Sheludchenko</title>
     <link href="doc_style.css" rel="stylesheet">
     <meta name="keywords" content="Анна Шелудченко, Anna Sheludchenko, castlesofplacebo">
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="scripts/state_items.js"></script>
+    <script src="scripts/page_load.js"></script>
 </head>
 <body>
 <header class="header">
     <h1>Anna Sheludchenko</h1>
     <h2>Junior Developer & ITMO University student</h2>
 
-    <nav class="header__navigation">
-        <h3>Navigation</h3>
-        <ul>
-            <li><a href=#profile> Profile </a></li>
-            <li><a href=#education> Education </a></li>
-            <li><a href=#skills> Skills </a></li>
-            <li><a href=#languages> Languages </a></li>
-            <li><a href=#quotes> Quotes </a></li>
-            <li><a href=#contacts> Contacts </a></li>
-        </ul>
+    <nav class="header__nav">
+        <div class="container">
+            <ul>
+                <li class="profile"><a href="#profile"> Profile </a></li>
+                <li class="skills"><a href=#skills> Skills </a></li>
+                <li class="contacts"><a href=#contacts> Contacts </a></li>
+                <li class="education"><a href=#education> Education </a></li>
+                <li class="date"><a href="./html-entities/date.html"> Get Date </a></li>
+            </ul>
+        </div>
     </nav>
 </header>
 
 <main class="general">
-    <section id="profile" class="general__profile"> <!--??? -->
-        <h3>About me</h3>
 
-        <img class="general__photo" src="photo/info_photo.jpeg" alt="personal photo" width=40% height=40%>
+    <i class="general__icon-hand">&#9997;</i>
 
-        <p>I am 20 years old, and I was born in Volzhsky (Volgograd region). Nowadays, I live in
-            Saint-Petersburg.</p>
+    <div class="general__gallery">
+        <div class="photo photo1 photo--large"></div>
+        <div class="photo photo2 photo--large"></div>
+    </div>
 
-        <img class="general__photo" src="photo/volzhsky2021.JPG" alt="photo from volzhsky 2021" width=50% height=30%>
-
-        <p>I am a third-year student at ITMO University. My major is information systems and technologies. </p>
-
-        <p>I started programming only three years ago, but I have quite a good result in it.
-            Also, I enjoy all kinds of education: watching lectures, guides and tutorials; taking notes and trying
-            new
-            approaches of time management.
-        </p>
-
-        <p>
-            Also I have a figure of Tom Nook...
-        </p>
-
-        <img class="general__photo" src="photo/tom_nook.jpeg" alt="tom nook" width=40% height=40%>
-    </section>
-
-    <section id="education" class="general__education">
-        <h3>Education</h3>
-        <ul>
-            <li>Elementary & High School №22, Volzhsky 2008 - 2014</li>
-            <li>High School №30, Volzhsky 2014 - 2019</li>
-            <li>Musical School №3, Volzhsky 2007 - 2015</li>
-            <li>ITMO University, Saint-Petersburg 2019 - ...</li>
-        </ul>
-    </section>
-
-    <section id="skills" class="general__skills">
-        <h3>Skills</h3>
-        <ul>
-            <li>C&C++ programming</li>
-            <li>Object-Oriented programming</li>
-            <li>Discrete math, Calculus, Linear algebra</li>
-            <li>Algorithms and Data structures</li>
-            <li>Bash</li>
-            <li>Familiar with:</li>
-            <ul>
-                <li>Java</li>
-                <li>Python</li>
-            </ul>
-        </ul>
-
-        <section id="languages" class="general__languages">
-            <h3>Languages</h3>
-            <ol>
-                <li><i>Russian</i> - Native Speaker</li>
-                <li><i>English</i> - B2 - Upper Intermediate</li>
-            </ol>
+    <div class="general__main">
+        <section id="profile" class="general__info">
+            <h3>About me</h3>
+            <p>I am 20 years old, and I was born in Volzhsky (Volgograd region). Nowadays, I live in
+                Saint-Petersburg.
+            </p>
+            <p>I am a third-year student at ITMO University. My major is information systems and technologies.
+            </p>
+            <p>I started programming only three years ago, but I have quite a good result in it.
+                Also, I enjoy all kinds of education: watching lectures, guides and tutorials; taking notes and trying
+                new
+                approaches of time management.
+            </p>
         </section>
 
-        <aside id="contacts" class="general__contacts">
-            <h3>Contacts:</h3>
+        <section id="skills" class="general__skills">
+            <h3>Skills</h3>
+            <ul>
+                <li>C&C++ programming</li>
+                <li>Object-Oriented programming</li>
+                <li>Discrete math, Calculus, Linear algebra</li>
+                <li>Algorithms and Data structures</li>
+                <li>Bash</li>
+                <li>Familiar with:</li>
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                </ul>
+            </ul>
+        </section>
+
+        <section id="contacts" class="general__contacts">
+            <div class="centeredIcon">
+                <div class="general__icon-phone">
+                    &#9742
+                </div>
+            </div>
             <ul>
                 <li><a href="https://github.com/castlesofplacebo"> <strong>GitHub</strong> </a></li>
                 <li><a href="https://t.me/castlesofplacebo"> <strong>Telegram</strong> </a></li>
                 <li><a href="https://vk.com/castlesofplacebo"> Vk </a></li>
-                <li><i>Gmail:</i> castlesofplacebo@gmail.com</li>
             </ul>
-        </aside>
+        </section>
 
-        <section class="general__code-snippet">
-            <h3>Code snippet</h3>
-            <p>Code snippet from object-oriented programming lab:</p>
-            <pre>
+        <section id="education" class="general__education">
+            <h3>Education</h3>
+            <ul>
+                <li>Elementary & High School №22, Volzhsky 2008 - 2014</li>
+                <li>High School №30, Volzhsky 2014 - 2019</li>
+                <li>Musical School №3, Volzhsky 2007 - 2015</li>
+                <li>ITMO University, Saint-Petersburg 2019 - ...</li>
+            </ul>
+        </section>
+    </div>
+
+    <section id="quotes">
+        <h3>My favourite quotes</h3>
+        <div class="general__quotes">
+            <blockquote>
+                Ту ту ту ту ту ту ту ту ту ту
+                <cite> - Папич</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <section class="general__code-snippet">
+        <h3>Code snippet</h3>
+        <p>Code snippet from object-oriented programming lab:</p>
+        <pre>
                 <code>
 void Bank::addMember(BankAccount *bankAccount) {
     bankAccount->setVerificationLimit(this->verificationLimit);
@@ -106,33 +115,33 @@ void Bank::addMember(BankAccount *bankAccount) {
             throw std::invalid_argument("Account of this client already exists");
 
     this->members[bankAccount] = bankAccount->getAccountID();
-}
-                </code>
+}</code>
             </pre>
-        </section>
     </section>
 
-    <section id="quotes" class="general__quotes">
-        <h3>My favourite quotes</h3>
-        <blockquote>
-            <p>Ту ту ту ту ту <b>ту ту ту ту</b> ту</p>
-            <cite>Папич</cite>
-        </blockquote>
-        <p>
-            фор<sub>мула</sub> + <sup>усп</sup>еха = формула успеха
-        </p>
-    </section>
 </main>
 
-<footer class="footer">
-    <h3>Wishes and regrets...</h3>
-    <p class="footer__wishes">
-        Писать телеграм бота и делать машинное обучение
-    </p>
+<footer>
+    <h3>Current plans</h3>
 
-    <p class="footer__reality">
-        делать веб
-    </p>
+    <div class="footer__table">
+        <div>25-31 October</div>
+        <div>Odd</div>
+        <div>ML test, Web lab3, UML task3, Linux lab2, CodeX issue, Deep Learning School hw3</div>
+
+        <div>1-7 November</div>
+        <div>Even</div>
+        <div>ML lab4, History project</div>
+
+        <div>8-14 November</div>
+        <div>Odd</div>
+        <div>Web lab4, UML task4, Linux lab3</div>
+    </div>
+
+    <div class="footer_load-time">
+        <h3>Load time</h3>
+        <span id="load_time"></span>
+    </div>
 
     <section class="footer__ascii-block">
         <h3>ASCII block</h3>
@@ -143,8 +152,7 @@ void Bank::addMember(BankAccount *bankAccount) {
 (__/\__)(__)(__)(_)\_) (__)   (____) (__) (___/   (__) (____)(_/\/\_)(____)  (__)  (_____)(_)\_)  (___/ \___)(_) (_)(_____)(_____)(____)
         </pre>
     </section>
+
 </footer>
-
 </body>
-
 </html>
