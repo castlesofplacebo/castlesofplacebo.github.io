@@ -16,18 +16,13 @@ h3 {
 }
 
 p, ul, ol, a, span {
-    font-size: 3vh;
+    font-size: 2.5vh;
     line-height: 4.8vh;
 }
 
 pre {
     font-size: 2.5vh;
     line-height: 4vh;
-}
-
-code {
-    line-height: 3vh;
-    word-spacing: 1.5vh;
 }
 
 html {
@@ -49,8 +44,6 @@ body {
 }
 
 .header__nav .container {
-    margin: 0 auto;
-    padding: 0;
     text-align: center;
 }
 
@@ -115,9 +108,8 @@ body {
 
 .general__icon-hand {
     position: absolute;
-    top: 2.5vh;
-    left: 5vh;
-    font-size: 9vh;
+    left: 6.5vh;
+    font-size: 5vh;
 }
 
 .general__main {
@@ -131,9 +123,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 50%;
-    height: 50%;
     align-content: space-around;
+    padding: 3vh;
+}
+
+.general__info {
+    text-align: center;
 }
 
 .general__icon-phone {
@@ -152,10 +147,6 @@ body {
     0 2vh 3vh rgba(0, 0, 0, 0.05);
 }
 
-.general__education {
-    font-weight: bolder;
-}
-
 .general__quotes {
     display: flex;
     flex-flow: row wrap;
@@ -168,6 +159,7 @@ blockquote {
     border-left: 2vh solid #666666;
     margin: 2vh 10vh;
     padding: 1.5vh 7vh;
+    font-size: 2.5vh;
     quotes: "\201C" "\201D" "\2018" "\2019";
     box-shadow: 1vh 1vh 1vh #d2cfc6;
 }
@@ -197,8 +189,8 @@ cite {
     color: #666;
     page-break-inside: avoid;
     font-family: monospace;
-    font-size: 2.5vh;
-    line-height: 1.6;
+    font-size: 2.3vh;
+    line-height: 1.2;
     margin-bottom: 1.5vh;
     max-width: 100%;
     overflow: auto;
@@ -213,6 +205,7 @@ cite {
 }
 
 .footer__table {
+    font-size: 2.5vh;
     display: grid;
     grid-template-columns: 1fr 1fr 50%;
     grid-gap: 2vh;
@@ -233,21 +226,9 @@ cite {
 
 .footer_load-time {
     text-align: center;
+    margin-bottom: 17vh;
 }
 
 .footer__ascii-block {
-    display: flex;
-    flex-direction: column;
-
-    justify-content: center;
-    align-items: center;
-
-    padding: 3vh;
-    font-weight: bolder;
-}
-
-@media screen and (max-width: 768px) {
-    .footer__ascii-block {
-        display: none;
-    }
+    display: none;
 }
