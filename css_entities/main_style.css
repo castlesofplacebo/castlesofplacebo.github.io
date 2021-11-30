@@ -93,7 +93,7 @@ body {
 .photo1 {
     width: 80vh;
     height: 55vh;
-    background-image: url('./photo/info_photo.JPG');
+    background-image: url('../photo/info_photo.JPG');
     background-size: cover;
     background-position: 50% 50%;
 }
@@ -101,7 +101,7 @@ body {
 .photo2 {
     width: 80vh;
     height: 55vh;
-    background-image: url('./photo/volzhsky2021.JPG');
+    background-image: url('../photo/volzhsky2021.JPG');
     background-size: cover;
     background-position: 50% 50%;
 }
@@ -222,6 +222,10 @@ cite {
     padding: 2vh;
     font-style: oblique;
     background: #c9def7;
+}
+
+.footer__to_do_list {
+    text-align: center;
 }
 
 .footer_load-time {
