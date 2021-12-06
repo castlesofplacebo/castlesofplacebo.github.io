@@ -224,7 +224,7 @@ cite {
     background: #c9def7;
 }
 
-.footer__to_do_list {
+.footer__to_do_list, .footer__gallery {
     text-align: center;
 }
 
