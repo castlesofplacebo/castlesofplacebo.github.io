@@ -118,3 +118,9 @@ button:hover {
 .checked {
     text-decoration: line-through;
 }
+
+.main__button {
+    font-size: 2.5vh;
+    width: 40vh;
+    height: 4vh;
+}
