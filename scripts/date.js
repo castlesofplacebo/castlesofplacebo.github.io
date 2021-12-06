@@ -1,9 +1,9 @@
-var today = new Date();
+let today = new Date();
 
-var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
+let date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
 
-var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 
-var dateTime = date + ' ' + time;
+let dateTime = date + ' ' + time;
 
 window.alert(dateTime)

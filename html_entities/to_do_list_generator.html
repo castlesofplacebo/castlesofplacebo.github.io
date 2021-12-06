@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo</title>
+    <link href="../css_entities/generator_style.css" rel="stylesheet">
+    <script defer src="../scripts/to_do_list_generator.js"></script>
+</head>
+
+<body class="main">
+<div class="main__container">
+    <h1>ToDo List</h1>
+
+    <form class="main__todo-form">
+        <input class="main__todo-input" type="text" placeholder="Add a Todo...">
+        <button class="main__add-button" type="submit">+</button>
+    </form>
+
+    <ul class="main__todo-items"></ul>
+
+    <div class="main__rollback">
+        <button onclick="location.href='../index.html'" type="button">
+            To Main Page
+        </button>
+    </div>
+</div>
+</body>
+</html>

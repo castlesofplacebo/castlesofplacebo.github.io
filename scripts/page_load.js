@@ -1,4 +1,4 @@
-var before_load_time = new Date().getTime();
+let before_load_time = new Date().getTime();
 window.onload = page_load_time;
 
 function page_load_time() {
