@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Anna Sheludchenko</title>
-    <link href="css_entities/main_style.css" rel="stylesheet">
+    <link href="CSS/main_style.css" rel="stylesheet">
+    <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet"/>
     <meta name="keywords" content="Анна Шелудченко, Anna Sheludchenko, castlesofplacebo">
 
     <script src="https://code.jquery.com/jquery-latest.js"></script>
-    <script src="./scripts/state_items.js"></script>
-    <script src="./scripts/page_load.js"></script>
+    <script src="JS/state_items.js"></script>
+    <script src="JS/page_load.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script defer src="JS/gallery.js"></script>
 </head>
 <body>
 <header class="header">
@@ -22,7 +25,7 @@
                 <li class="skills"><a href=#skills> Skills </a></li>
                 <li class="contacts"><a href=#contacts> Contacts </a></li>
                 <li class="education"><a href=#education> Education </a></li>
-                <!--<li class="date"><a href="./html_entities/date.html"> Get Date </a></li>-->
+                <!--<li class="date"><a href="./HTML/date.html"> Get Date </a></li>-->
             </ul>
         </div>
     </nav>
@@ -30,11 +33,34 @@
 
 <main class="general">
 
-    <i class="general__icon-hand">&#9997;</i>
+    <!--<i class="general__icon-hand">&#9997;</i>-->
 
-    <div class="general__gallery">
-        <div class="photo photo1 photo--large"></div>
-        <div class="photo photo2 photo--large"></div>
+    <!--<div class="general__gallery">
+        <div class="photo photo1 photo&#45;&#45;large"></div>
+        <div class="photo photo2 photo&#45;&#45;large"></div>
+    </div>-->
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="/JPG/01.JPG">
+            </div>
+            <div class="swiper-slide">
+                <img src="/JPG/02.JPG">
+            </div>
+            <div class="swiper-slide">
+                <img src="/JPG/03.JPG">
+            </div>
+            <div class="swiper-slide">
+                <img src="/JPG/04.JPG">
+            </div>
+            <div class="swiper-slide">
+                <img src="/JPG/05.JPG">
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
     </div>
 
     <div class="general__main">
@@ -140,14 +166,17 @@ void Bank::addMember(BankAccount *bankAccount) {
 
     <div class="footer__to_do_list">
         <h3>ToDo List Generator</h3>
-        <button class="footer__button" onclick="location.href='./html_entities/to_do_list_generator.html'" type="button">
-            I want to create it!</button>
+        <button class="footer__button" onclick="location.href='HTML/to_do_list_generator.html'"
+                type="button">
+            I want to create it!
+        </button>
     </div>
 
     <div class="footer__gallery">
         <h3>Mock Gallery</h3>
-        <button class="footer__button" onclick="location.href='./html_entities/mock_gallery.html'">
-            I want to see it!</button>
+        <button class="footer__button" onclick="location.href='HTML/mock_gallery.html'">
+            I want to see it!
+        </button>
     </div>
 
     <div class="footer_load-time">
